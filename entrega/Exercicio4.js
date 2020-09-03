@@ -10,15 +10,15 @@ const readlineSync = require ('readline-Sync')
 
 
 
-let cadastroDePessoas ={
+let pessoa ={
     nomeCompleto: '',
     idade: 0,
     altura: 0,
     mestrosCaminhadosNoDia: 0
-};
+}
 
-cadastroDePessoas.nomeCompleto = readlineSync.question ("Qual o seu nome: ");
-cadastroDePessoas.idade = readlineSync.question ("Qual a sua idade: ");
-cadastroDePessoas.altura = readlineSync.question ("Qual a sua altura: ");
-cadastroDePessoas.metrosCaminhadosNodia = readlineSync.question ("Quantos metros de caminha você fez no dia");
-console.log(cadastroDePessoas)
+pessoa.nomeCompleto = readlineSync.question ("Qual o seu nome: ");
+pessoa.idade = readlineSync.question ("Qual a sua idade: ");
+pessoa.altura = readlineSync.question ("Qual a sua altura: ");
+pessoa.metrosCaminhadosNodia = readlineSync.question ("Quantos metros de caminha você fez no dia");
+console.log(pessoa)
