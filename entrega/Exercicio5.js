@@ -15,27 +15,27 @@ Só que, antes de retornar a string, você vai fazer algumas validações:
   
   const readlineSync = require ('readline-Sync')
 
-  let pessoa ={
-      nomeCompleto: "Jose da Silva",
-      idade: "20",
-      altura: "1.85",
-      metrosCaminhadosNoDia: "13"
+  let person ={
+      fullName: "Jose da Silva",
+      age: "20",
+      height: "1.85",
+      metersWalkedInTheDay: "13",
 
   apresentation: function () {
 
-    if (pessoa.idade === 1){
-    let years = ano
+    if (person.age === 1){
+    let ageSingular = ano
 
-    }else years = anos
+    }else ageSingular = anos
 
-    if (pessoa.metrosCaminhadosNoDia === 1){
-        let caminhada = metro
+    if (person.metersWalkedInTheDay === 1){
+        let walking = metro
     
-    }else caminhada = metros 
+    }else walking = metros 
 
     
 
-    return "Olá, eu sou " + pessoa.nomeCompleto + ", tenho " + pessoa.idade + " " + anos+ ", minha é " + pessoa.altura + " e só hoje, eu já caminhei " + metrosCaminhadosNoDia + " " + metros + " !"
+    return "Olá, eu sou " + person.fullName + ", tenho " + person.age + " " + ageSingular+ ", minha é " + pessoa.altura + " e só hoje, eu já caminhei " + person.metersWalkedInTheDay  + " " + walking + " !"
 
   }
   
