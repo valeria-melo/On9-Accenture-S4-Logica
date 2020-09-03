@@ -18,7 +18,7 @@
 const readlineSync = require("readline-sync");
 
 let rainbow = ["Red", "Orange", "Blackberry", "Blue"];
-rainbow.splice(2, 2, "Yellow", "Green", "Purple");
+rainbow.splice(2, 1, "Yellow", "Green", "Purple");
 
 console.log(rainbow);
 
